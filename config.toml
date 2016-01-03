@@ -1,12 +1,14 @@
-baseurl = "madeof.info/"
+baseurl = "https://madeof.info/"
 languageCode = "en-us"
 title = "We are made of information"
 # Define how many pages appear per site
 paginate = 3
 # Enable comments powered by Disqus by entering your disqus shortname
-disqusShortname = "lipoo"
+disqusShortname = "karl.horschel"
 theme = "hugo-minimalist-theme"
-relativeURLs = true
+#relativeURLs = true
+#[permalinks]
+#    post = "/:section/:title/"
 
 [params]
     site_author = "Karl Horschel"
@@ -26,7 +28,7 @@ relativeURLs = true
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = "lipoo"
+    twitter   = ""
     facebook  = ""
     linkedin  = ""
     behance   = ""
